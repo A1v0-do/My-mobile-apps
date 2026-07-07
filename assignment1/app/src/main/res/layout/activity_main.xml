@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:text="ITEM"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:text="QNTY"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0"
+                android:layout_height="match_parent"
+                android:text="TOTAL PRICE"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:text="Bread"/>
+            <EditText
+                android:id="@+id/breadQtyet"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"/>
+            <EditText
+                android:id="@+id/BreadPriceet"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:text="Milk"/>
+            <EditText
+                android:id="@+id/MilkQtyet"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"/>
+            <EditText
+                android:id="@+id/MilkPriceet"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:text="Pens"/>
+            <EditText
+                android:id="@+id/PensQtyet"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"/>
+            <EditText
+                android:id="@+id/PensPriceet"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:text="Butter"/>
+            <EditText
+                android:id="@+id/ButterQtyet"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"/>
+            <EditText
+                android:id="@+id/ButterPriceet"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:text="Total cost"/>
+            <EditText
+                android:id="@+id/TotalCostet"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:focusable="false"
+                android:longClickable="false"/> </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Calculate Total"
+        android:textSize="16sp" />
+
+</LinearLayout>
